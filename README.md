@@ -6,6 +6,7 @@
 
 ## Описание проекта
 Проект Docker контейнера для проекта YaMDB. Подробно о проекте YAMDB и его локальной развертке [здесь](https://github.com/NECROshizo/infra_sp2/api_yamdb/README.md)
+Проект можно посмотреть по адрессу [здесь](http://130.193.40.103/api/v1/)
 
 ## Установка и настройки из контейнера Docker
 #### Запуск сборки из файл docker-compose.yaml:
@@ -17,6 +18,10 @@ docker-compose up -d
 **При необходимости пересборки контейнера:**
 ```
 docker-compose up -d --build
+```
+**Остановка запущенных контейнеров:**
+```
+docker-compose stop 
 ```
 #### Создание и применение миграции:
 ```
@@ -35,8 +40,6 @@ docker-compose exec web python manage.py collectstatic --no-input
 ```
 docker-compose exec web python manage.py loaddata fixtures.json
 ```
-#### Проект с рабочей базой
-Проект можно посмотреть по адрессу [neoshi.sytes.net](https://neoshi.sytes.net/api/v1/)
 #### Настройка параметров допуска оуружения к базе данных
 ```
 touch .env
