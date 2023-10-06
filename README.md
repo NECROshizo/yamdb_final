@@ -5,7 +5,7 @@
 ![Workflow](https://github.com/NECROshizo/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Описание проекта
-Проект Docker контейнера для проекта YaMDB. Подробно о проекте YAMDB и его локальной развертке [здесь](https://github.com/NECROshizo/infra_sp2/api_yamdb/README.md)
+Проект Docker контейнера для проекта YaMDB. Подробно о проекте YAMDB и его локальной развертке [здесь](https://github.com/NECROshizo/yamdb_final/blob/master/api_yamdb/README.md)
 Проект можно посмотреть по адрессу [здесь](http://130.193.40.103/api/v1/)
 
 ## Установка и настройки из контейнера Docker
